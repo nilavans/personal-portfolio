@@ -1,0 +1,62 @@
+.style-switcher{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #d4d4e3;
+    border-left: none;
+    border-radius:0 0 5px 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.style-switcher.open{
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+}
+.style-switcher h5{
+    font-size: 15px;
+    color:#605A5C;
+    margin-bottom:8px;
+    margin-top: 0;
+    padding-bottom:5px;
+    border-bottom: 1px solid #e8dfec;
+}
+.style-switcher ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-bottom: 5px;
+}
+.style-switcher ul li{
+    display: inline-block;
+}
+.style-switcher ul li a{
+    height: 30px;
+    width: 30px;
+    display: block;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 2px;
+}
+.style-switcher .toggle-style-switcher{
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background: #ffffff;
+  right:-46px;
+  top:-1px;
+  border: 1px solid #d4d4e3;
+  border-left: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius:0 5px 5px 0;
+}
+.style-switcher .toggle-style-switcher .fa{
+    font-size: 20px;
+    line-height: 43px;
+}
