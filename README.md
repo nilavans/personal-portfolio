@@ -1,2 +1,2 @@
 # Personal_Portfolio
- This is designed using HTML,CSS,JS.
+Developed using HTML, CSS, JS.
